@@ -1,7 +1,7 @@
 {
     "name": "jobcloud/chubbyphp-serialization",
     "description": "Jobcloud Chubbyphp Serialize",
-    "keywords": ["chubbyphp", "slim", "symfony", "serialization", "serialize", "serializer"],
+    "keywords": ["Jobcloud","chubbyphp", "slim", "symfony", "serialization", "serialize", "serializer"],
     "license": "MIT",
     "authors": [
         {

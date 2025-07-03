@@ -49,7 +49,7 @@ Please take a look to [chubbyphp-parsing](https://github.com/chubbyphp/chubbyphp
 Through [Composer](http://getcomposer.org) as [chubbyphp/chubbyphp-serialization][1].
 
 ```sh
-composer require chubbyphp/chubbyphp-serialization "^4.1"
+composer require jobcloud:/chubbyphp-serialization
 ```
 
 ## Usage

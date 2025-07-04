@@ -1,7 +1,7 @@
 {
-    "name": "chubbyphp/chubbyphp-serialization",
-    "description": "Chubbyphp Serialize",
-    "keywords": ["chubbyphp", "slim", "symfony", "serialization", "serialize", "serializer"],
+    "name": "jobcloud/chubbyphp-serialization",
+    "description": "Jobcloud Chubbyphp Serialize",
+    "keywords": ["Jobcloud","chubbyphp", "slim", "symfony", "serialization", "serialize", "serializer"],
     "license": "MIT",
     "authors": [
         {
@@ -48,11 +48,6 @@
         "allow-plugins": {
             "infection/extension-installer": true,
             "phpstan/extension-installer": true
-        }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "4.2-dev"
         }
     },
     "scripts": {

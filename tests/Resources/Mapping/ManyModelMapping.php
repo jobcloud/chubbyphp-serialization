@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Chubbyphp\Tests\Serialization\Resources\Mapping;
+namespace Jobcloud\Tests\Serialization\Resources\Mapping;
 
 use Chubbyphp\Serialization\Mapping\NormalizationFieldMappingBuilder;
 use Chubbyphp\Serialization\Mapping\NormalizationFieldMappingInterface;
 use Chubbyphp\Serialization\Mapping\NormalizationLinkMappingInterface;
 use Chubbyphp\Serialization\Mapping\NormalizationObjectMappingInterface;
-use Chubbyphp\Tests\Serialization\Resources\Model\ManyModel;
+use Jobcloud\Tests\Serialization\Resources\Model\ManyModel;
 
 final class ManyModelMapping implements NormalizationObjectMappingInterface
 {

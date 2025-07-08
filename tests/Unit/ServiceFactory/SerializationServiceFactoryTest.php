@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Chubbyphp\Tests\Serialization\Unit\ServiceFactory;
+namespace Jobcloud\Tests\Serialization\Unit\ServiceFactory;
 
 use Chubbyphp\Container\Container;
 use Chubbyphp\DecodeEncode\Encoder\Encoder;

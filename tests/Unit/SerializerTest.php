@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Chubbyphp\Tests\Serialization\Unit;
+namespace Jobcloud\Tests\Serialization\Unit;
 
 use Chubbyphp\DecodeEncode\Encoder\EncoderInterface;
 use Chubbyphp\Mock\MockMethod\WithReturn;

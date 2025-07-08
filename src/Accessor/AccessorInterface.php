@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Chubbyphp\Serialization\Accessor;
+namespace Jobcloud\Serialization\Accessor;
 
-use Chubbyphp\Serialization\SerializerLogicException;
+use Jobcloud\Serialization\SerializerLogicException;
 
 interface AccessorInterface
 {

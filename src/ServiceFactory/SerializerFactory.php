@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Chubbyphp\Serialization\ServiceFactory;
+namespace Jobcloud\Serialization\ServiceFactory;
 
 use Chubbyphp\DecodeEncode\Encoder\EncoderInterface;
 use Chubbyphp\DecodeEncode\ServiceFactory\EncoderFactory;
 use Chubbyphp\Laminas\Config\Factory\AbstractFactory;
-use Chubbyphp\Serialization\Normalizer\NormalizerInterface;
-use Chubbyphp\Serialization\Serializer;
-use Chubbyphp\Serialization\SerializerInterface;
+use Jobcloud\Serialization\Normalizer\NormalizerInterface;
+use Jobcloud\Serialization\Serializer;
+use Jobcloud\Serialization\SerializerInterface;
 use Psr\Container\ContainerInterface;
 
 final class SerializerFactory extends AbstractFactory

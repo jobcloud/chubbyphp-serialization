@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Chubbyphp\Serialization\Normalizer;
+namespace Jobcloud\Serialization\Normalizer;
 
 final class CallbackFieldNormalizer implements FieldNormalizerInterface
 {

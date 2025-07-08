@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Chubbyphp\Tests\Serialization\Resources\Model;
+namespace Jobcloud\Tests\Serialization\Resources\Model;
 
 final class Model
 {

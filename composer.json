@@ -1,5 +1,5 @@
 {
-    "name": "jobcloud/chubbyphp-serialization",
+    "name": "jobcloud/serialization",
     "description": "Jobcloud Chubbyphp Serialize",
     "keywords": ["Jobcloud","chubbyphp", "slim", "symfony", "serialization", "serialize", "serializer"],
     "license": "MIT",
@@ -38,10 +38,10 @@
         "symfony/dependency-injection": "^5.4.46|^6.4.14|^7.2"
     },
     "autoload": {
-        "psr-4": { "Chubbyphp\\Serialization\\": "src/" }
+        "psr-4": { "Jobcloud\\Serialization\\": "src/" }
     },
     "autoload-dev": {
-        "psr-4": { "Chubbyphp\\Tests\\Serialization\\": "tests/" }
+        "psr-4": { "Jobcloud\\Tests\\Serialization\\": "tests/" }
     },
     "config": {
         "sort-packages": true,

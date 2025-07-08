@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Chubbyphp\Tests\Serialization\Unit\DependencyInjection;
+namespace Jobcloud\Tests\Serialization\Unit\DependencyInjection;
 
 use Chubbyphp\DecodeEncode\Encoder\Encoder;
 use Chubbyphp\DecodeEncode\Encoder\JsonTypeEncoder;

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Chubbyphp\Tests\Serialization\Unit\Mapping;
+namespace Jobcloud\Tests\Serialization\Unit\Mapping;
 
 use Chubbyphp\Mock\MockObjectBuilder;
 use Chubbyphp\Serialization\Mapping\NormalizationLinkMappingBuilder;

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Chubbyphp\Serialization\Policy;
+namespace Jobcloud\Serialization\Policy;
 
-use Chubbyphp\Serialization\Normalizer\NormalizerContextInterface;
+use Jobcloud\Serialization\Normalizer\NormalizerContextInterface;
 
 final class NullPolicy implements PolicyInterface
 {

@@ -2,19 +2,19 @@
 
 declare(strict_types=1);
 
-namespace Chubbyphp\Serialization\Mapping;
+namespace Jobcloud\Serialization\Mapping;
 
-use Chubbyphp\Serialization\Accessor\PropertyAccessor;
-use Chubbyphp\Serialization\Normalizer\CallbackFieldNormalizer;
-use Chubbyphp\Serialization\Normalizer\DateTimeFieldNormalizer;
-use Chubbyphp\Serialization\Normalizer\FieldNormalizer;
-use Chubbyphp\Serialization\Normalizer\FieldNormalizerInterface;
-use Chubbyphp\Serialization\Normalizer\Relation\EmbedManyFieldNormalizer;
-use Chubbyphp\Serialization\Normalizer\Relation\EmbedOneFieldNormalizer;
-use Chubbyphp\Serialization\Normalizer\Relation\ReferenceManyFieldNormalizer;
-use Chubbyphp\Serialization\Normalizer\Relation\ReferenceOneFieldNormalizer;
-use Chubbyphp\Serialization\Policy\NullPolicy;
-use Chubbyphp\Serialization\Policy\PolicyInterface;
+use Jobcloud\Serialization\Accessor\PropertyAccessor;
+use Jobcloud\Serialization\Normalizer\CallbackFieldNormalizer;
+use Jobcloud\Serialization\Normalizer\DateTimeFieldNormalizer;
+use Jobcloud\Serialization\Normalizer\FieldNormalizer;
+use Jobcloud\Serialization\Normalizer\FieldNormalizerInterface;
+use Jobcloud\Serialization\Normalizer\Relation\EmbedManyFieldNormalizer;
+use Jobcloud\Serialization\Normalizer\Relation\EmbedOneFieldNormalizer;
+use Jobcloud\Serialization\Normalizer\Relation\ReferenceManyFieldNormalizer;
+use Jobcloud\Serialization\Normalizer\Relation\ReferenceOneFieldNormalizer;
+use Jobcloud\Serialization\Policy\NullPolicy;
+use Jobcloud\Serialization\Policy\PolicyInterface;
 
 final class NormalizationFieldMappingBuilder
 {

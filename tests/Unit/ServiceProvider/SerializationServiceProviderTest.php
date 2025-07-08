@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Chubbyphp\Tests\Serialization\Unit\ServiceProvider;
+namespace Jobcloud\Tests\Serialization\Unit\ServiceProvider;
 
 use Chubbyphp\DecodeEncode\Encoder\Encoder;
 use Chubbyphp\Mock\MockObjectBuilder;

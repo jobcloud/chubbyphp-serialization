@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Chubbyphp\Serialization\Mapping;
+namespace Jobcloud\Serialization\Mapping;
 
 interface NormalizationObjectMappingInterface
 {

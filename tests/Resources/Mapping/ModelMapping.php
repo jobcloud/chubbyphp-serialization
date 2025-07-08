@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Chubbyphp\Tests\Serialization\Resources\Mapping;
+namespace Jobcloud\Tests\Serialization\Resources\Mapping;
 
 use Chubbyphp\Serialization\Link\LinkBuilder;
 use Chubbyphp\Serialization\Mapping\NormalizationFieldMappingBuilder;
@@ -16,7 +16,7 @@ use Chubbyphp\Serialization\Policy\CallbackPolicy;
 use Chubbyphp\Serialization\Policy\GroupPolicy;
 use Chubbyphp\Serialization\Policy\NullPolicy;
 use Chubbyphp\Serialization\Policy\OrPolicy;
-use Chubbyphp\Tests\Serialization\Resources\Model\Model;
+use Jobcloud\Tests\Serialization\Resources\Model\Model;
 
 final class ModelMapping implements NormalizationObjectMappingInterface
 {

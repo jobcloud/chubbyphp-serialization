@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Chubbyphp\Serialization\Normalizer;
+namespace Jobcloud\Serialization\Normalizer;
 
-use Chubbyphp\Serialization\SerializerLogicException;
+use Jobcloud\Serialization\SerializerLogicException;
 use Psr\Link\LinkInterface;
 
 final class LinkNormalizer implements LinkNormalizerInterface

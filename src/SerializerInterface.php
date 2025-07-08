@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Chubbyphp\Serialization;
+namespace Jobcloud\Serialization;
 
 use Chubbyphp\DecodeEncode\Encoder\EncoderInterface;
-use Chubbyphp\Serialization\Normalizer\NormalizerContextInterface;
-use Chubbyphp\Serialization\Normalizer\NormalizerInterface;
+use Jobcloud\Serialization\Normalizer\NormalizerContextInterface;
+use Jobcloud\Serialization\Normalizer\NormalizerInterface;
 
 interface SerializerInterface extends EncoderInterface, NormalizerInterface
 {

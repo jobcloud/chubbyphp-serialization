@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Chubbyphp\Tests\Serialization\Unit\Link;
+namespace Jobcloud\Tests\Serialization\Unit\Link;
 
 use Chubbyphp\Serialization\Link\LinkBuilder;
 use PHPUnit\Framework\TestCase;

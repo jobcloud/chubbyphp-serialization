@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Chubbyphp\Serialization\ServiceFactory;
+namespace Jobcloud\Serialization\ServiceFactory;
 
 use Chubbyphp\Laminas\Config\Factory\AbstractFactory;
-use Chubbyphp\Serialization\Mapping\NormalizationObjectMappingInterface;
-use Chubbyphp\Serialization\Normalizer\NormalizerObjectMappingRegistry;
-use Chubbyphp\Serialization\Normalizer\NormalizerObjectMappingRegistryInterface;
+use Jobcloud\Serialization\Mapping\NormalizationObjectMappingInterface;
+use Jobcloud\Serialization\Normalizer\NormalizerObjectMappingRegistry;
+use Jobcloud\Serialization\Normalizer\NormalizerObjectMappingRegistryInterface;
 use Psr\Container\ContainerInterface;
 
 final class NormalizerObjectMappingRegistryFactory extends AbstractFactory

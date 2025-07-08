@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Chubbyphp\Serialization\Normalizer\Relation;
+namespace Jobcloud\Serialization\Normalizer\Relation;
 
-use Chubbyphp\Serialization\Accessor\AccessorInterface;
-use Chubbyphp\Serialization\Normalizer\FieldNormalizerInterface;
-use Chubbyphp\Serialization\Normalizer\NormalizerContextInterface;
-use Chubbyphp\Serialization\Normalizer\NormalizerInterface;
-use Chubbyphp\Serialization\SerializerLogicException;
+use Jobcloud\Serialization\Accessor\AccessorInterface;
+use Jobcloud\Serialization\Normalizer\FieldNormalizerInterface;
+use Jobcloud\Serialization\Normalizer\NormalizerContextInterface;
+use Jobcloud\Serialization\Normalizer\NormalizerInterface;
+use Jobcloud\Serialization\SerializerLogicException;
 
 final class EmbedManyFieldNormalizer implements FieldNormalizerInterface
 {

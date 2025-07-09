@@ -3,8 +3,8 @@
 ```php
 <?php
 
-use Chubbyphp\Serialization\Normalizer\NormalizerContextInterface;
-use Chubbyphp\Serialization\Policy\NullPolicy;
+use Jobcloud\Serialization\Normalizer\NormalizerContextInterface;
+use Jobcloud\Serialization\Policy\NullPolicy;
 use MyProject\Model\Model;
 
 $model = new Model();

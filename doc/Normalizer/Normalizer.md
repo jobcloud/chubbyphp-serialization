@@ -3,8 +3,8 @@
 ```php
 <?php
 
-use Chubbyphp\Serialization\Normalizer\Normalizer;
-use Chubbyphp\Serialization\Normalizer\NormalizerObjectMappingRegistry;
+use Jobcloud\Serialization\Normalizer\Normalizer;
+use Jobcloud\Serialization\Normalizer\NormalizerObjectMappingRegistry;
 use MyProject\Serialization\ModelMapping;
 use MyProject\Model\Model;
 

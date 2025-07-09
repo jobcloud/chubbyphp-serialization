@@ -5,8 +5,8 @@
 ```php
 <?php
 
-use Chubbyphp\Serialization\Mapping\NormalizationObjectMappingInterface;
-use Chubbyphp\Serialization\ServiceFactory\NormalizerObjectMappingRegistryFactory;
+use Jobcloud\Serialization\Mapping\NormalizationObjectMappingInterface;
+use Jobcloud\Serialization\ServiceFactory\NormalizerObjectMappingRegistryFactory;
 use Psr\Container\ContainerInterface;
 
 /** @var ContainerInterface $container */
@@ -24,8 +24,8 @@ $normalizerObjectMappingRegistry = $factory($container);
 ```php
 <?php
 
-use Chubbyphp\Serialization\Mapping\NormalizationObjectMappingInterface;
-use Chubbyphp\Serialization\ServiceFactory\NormalizerObjectMappingRegistryFactory;
+use Jobcloud\Serialization\Mapping\NormalizationObjectMappingInterface;
+use Jobcloud\Serialization\ServiceFactory\NormalizerObjectMappingRegistryFactory;
 use Psr\Container\ContainerInterface;
 
 /** @var ContainerInterface $container */

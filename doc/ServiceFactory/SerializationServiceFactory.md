@@ -3,7 +3,7 @@
 ```php
 <?php
 
-use Chubbyphp\Serialization\ServiceFactory\SerializationServiceFactory;
+use Jobcloud\Serialization\ServiceFactory\SerializationServiceFactory;
 use Chubbyphp\Container\Container;
 
 $container = new Container();

@@ -9,17 +9,17 @@
 
 namespace MyProject\Serialization;
 
-use Chubbyphp\Serialization\Accessor\PropertyAccessor;
-use Chubbyphp\Serialization\Link\LinkBuilder;
-use Chubbyphp\Serialization\Mapping\NormalizationFieldMappingBuilder;
-use Chubbyphp\Serialization\Mapping\NormalizationFieldMappingInterface;
-use Chubbyphp\Serialization\Mapping\NormalizationLinkMapping;
-use Chubbyphp\Serialization\Mapping\NormalizationLinkMappingInterface;
-use Chubbyphp\Serialization\Mapping\NormalizationObjectMappingInterface;
-use Chubbyphp\Serialization\Normalizer\CallbackLinkNormalizer;
-use Chubbyphp\Serialization\Normalizer\Relation\EmbedManyFieldNormalizer;
-use Chubbyphp\Serialization\Normalizer\Relation\EmbedOneFieldNormalizer;
-use Chubbyphp\Serialization\Policy\GroupPolicy;
+use Jobcloud\Serialization\Accessor\PropertyAccessor;
+use Jobcloud\Serialization\Link\LinkBuilder;
+use Jobcloud\Serialization\Mapping\NormalizationFieldMappingBuilder;
+use Jobcloud\Serialization\Mapping\NormalizationFieldMappingInterface;
+use Jobcloud\Serialization\Mapping\NormalizationLinkMapping;
+use Jobcloud\Serialization\Mapping\NormalizationLinkMappingInterface;
+use Jobcloud\Serialization\Mapping\NormalizationObjectMappingInterface;
+use Jobcloud\Serialization\Normalizer\CallbackLinkNormalizer;
+use Jobcloud\Serialization\Normalizer\Relation\EmbedManyFieldNormalizer;
+use Jobcloud\Serialization\Normalizer\Relation\EmbedOneFieldNormalizer;
+use Jobcloud\Serialization\Policy\GroupPolicy;
 use MyProject\Model\Model;
 
 final class ModelMapping implements NormalizationObjectMappingInterface
@@ -103,10 +103,10 @@ final class ModelMapping implements NormalizationObjectMappingInterface
 
 namespace MyProject\Serialization;
 
-use Chubbyphp\Serialization\Mapping\NormalizationLinkMappingInterface;
-use Chubbyphp\Serialization\Mapping\NormalizationFieldMappingBuilder;
-use Chubbyphp\Serialization\Mapping\NormalizationFieldMappingInterface;
-use Chubbyphp\Serialization\Mapping\NormalizationObjectMappingInterface;
+use Jobcloud\Serialization\Mapping\NormalizationLinkMappingInterface;
+use Jobcloud\Serialization\Mapping\NormalizationFieldMappingBuilder;
+use Jobcloud\Serialization\Mapping\NormalizationFieldMappingInterface;
+use Jobcloud\Serialization\Mapping\NormalizationObjectMappingInterface;
 use MyProject\Model\ManyModel;
 
 final class ManyModelMapping implements NormalizationObjectMappingInterface
@@ -169,10 +169,10 @@ final class ManyModelMapping implements NormalizationObjectMappingInterface
 
 namespace MyProject\Serialization;
 
-use Chubbyphp\Serialization\Mapping\NormalizationLinkMappingInterface;
-use Chubbyphp\Serialization\Mapping\NormalizationFieldMappingBuilder;
-use Chubbyphp\Serialization\Mapping\NormalizationFieldMappingInterface;
-use Chubbyphp\Serialization\Mapping\NormalizationObjectMappingInterface;
+use Jobcloud\Serialization\Mapping\NormalizationLinkMappingInterface;
+use Jobcloud\Serialization\Mapping\NormalizationFieldMappingBuilder;
+use Jobcloud\Serialization\Mapping\NormalizationFieldMappingInterface;
+use Jobcloud\Serialization\Mapping\NormalizationObjectMappingInterface;
 use MyProject\Model\OneModel;
 
 final class OneModelMapping implements NormalizationObjectMappingInterface

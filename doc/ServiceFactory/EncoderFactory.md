@@ -5,8 +5,8 @@
 ```php
 <?php
 
-use Chubbyphp\Serialization\Encoder\TypeEncoderInterface;
-use Chubbyphp\Serialization\ServiceFactory\EncoderFactory;
+use Jobcloud\Serialization\Encoder\TypeEncoderInterface;
+use Jobcloud\Serialization\ServiceFactory\EncoderFactory;
 use Psr\Container\ContainerInterface;
 
 /** @var ContainerInterface $container */
@@ -24,8 +24,8 @@ $encoder = $factory($container);
 ```php
 <?php
 
-use Chubbyphp\Serialization\Encoder\TypeEncoderInterface;
-use Chubbyphp\Serialization\ServiceFactory\EncoderFactory;
+use Jobcloud\Serialization\Encoder\TypeEncoderInterface;
+use Jobcloud\Serialization\ServiceFactory\EncoderFactory;
 use Psr\Container\ContainerInterface;
 
 /** @var ContainerInterface $container */

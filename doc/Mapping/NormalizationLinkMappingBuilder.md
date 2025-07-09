@@ -3,10 +3,10 @@
 ```php
 <?php
 
-use Chubbyphp\Serialization\Link\Link;
-use Chubbyphp\Serialization\Mapping\NormalizationLinkMappingBuilder;
-use Chubbyphp\Serialization\Normalizer\CallbackLinkNormalizer;
-use Chubbyphp\Serialization\Normalizer\NormalizerContextInterface;
+use Jobcloud\Serialization\Link\Link;
+use Jobcloud\Serialization\Mapping\NormalizationLinkMappingBuilder;
+use Jobcloud\Serialization\Normalizer\CallbackLinkNormalizer;
+use Jobcloud\Serialization\Normalizer\NormalizerContextInterface;
 
 $fieldMapping = NormalizationLinkMappingBuilder::create(
     'name',

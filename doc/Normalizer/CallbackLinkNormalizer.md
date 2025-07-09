@@ -3,9 +3,9 @@
 ```php
 <?php
 
-use Chubbyphp\Serialization\Link\Link;
-use Chubbyphp\Serialization\Normalizer\CallbackLinkNormalizer;
-use Chubbyphp\Serialization\Normalizer\NormalizerContextInterface;
+use Jobcloud\Serialization\Link\Link;
+use Jobcloud\Serialization\Normalizer\CallbackLinkNormalizer;
+use Jobcloud\Serialization\Normalizer\NormalizerContextInterface;
 use MyProject\Model\Model;
 
 $model = new Model;

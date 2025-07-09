@@ -3,9 +3,9 @@
 ```php
 <?php
 
-use Chubbyphp\Serialization\Normalizer\CallbackFieldNormalizer;
-use Chubbyphp\Serialization\Normalizer\NormalizerContextInterface;
-use Chubbyphp\Serialization\Normalizer\NormalizerInterface;
+use Jobcloud\Serialization\Normalizer\CallbackFieldNormalizer;
+use Jobcloud\Serialization\Normalizer\NormalizerContextInterface;
+use Jobcloud\Serialization\Normalizer\NormalizerInterface;
 use MyProject\Model\Model;
 
 $model = new Model;

@@ -5,7 +5,7 @@
 ```php
 <?php
 
-use Chubbyphp\Serialization\ServiceFactory\NormalizerFactory;
+use Jobcloud\Serialization\ServiceFactory\NormalizerFactory;
 use Psr\Container\ContainerInterface;
 
 /** @var ContainerInterface $container */
@@ -21,7 +21,7 @@ $normalizer = $factory($container);
 ```php
 <?php
 
-use Chubbyphp\Serialization\ServiceFactory\NormalizerFactory;
+use Jobcloud\Serialization\ServiceFactory\NormalizerFactory;
 use Psr\Container\ContainerInterface;
 
 /** @var ContainerInterface $container */

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Chubbyphp\Serialization\Normalizer;
+namespace Jobcloud\Serialization\Normalizer;
 
-use Chubbyphp\Serialization\Mapping\NormalizationObjectMappingInterface;
-use Chubbyphp\Serialization\SerializerLogicException;
+use Jobcloud\Serialization\Mapping\NormalizationObjectMappingInterface;
+use Jobcloud\Serialization\SerializerLogicException;
 
 final class NormalizerObjectMappingRegistry implements NormalizerObjectMappingRegistryInterface
 {

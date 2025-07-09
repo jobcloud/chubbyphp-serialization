@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Chubbyphp\Serialization\Normalizer;
+namespace Jobcloud\Serialization\Normalizer;
 
-use Chubbyphp\Serialization\Mapping\NormalizationFieldMappingInterface;
-use Chubbyphp\Serialization\Mapping\NormalizationLinkMappingInterface;
-use Chubbyphp\Serialization\Mapping\NormalizationObjectMappingInterface;
-use Chubbyphp\Serialization\SerializerLogicException;
+use Jobcloud\Serialization\Mapping\NormalizationFieldMappingInterface;
+use Jobcloud\Serialization\Mapping\NormalizationLinkMappingInterface;
+use Jobcloud\Serialization\Mapping\NormalizationObjectMappingInterface;
+use Jobcloud\Serialization\SerializerLogicException;
 use Psr\Log\LoggerInterface;
 use Psr\Log\NullLogger;
 

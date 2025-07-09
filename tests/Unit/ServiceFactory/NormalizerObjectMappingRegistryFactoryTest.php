@@ -2,18 +2,18 @@
 
 declare(strict_types=1);
 
-namespace Chubbyphp\Tests\Serialization\Unit\ServiceFactory;
+namespace Jobcloud\Tests\Serialization\Unit\ServiceFactory;
 
 use Chubbyphp\Mock\MockMethod\WithReturn;
 use Chubbyphp\Mock\MockObjectBuilder;
-use Chubbyphp\Serialization\Mapping\NormalizationObjectMappingInterface;
-use Chubbyphp\Serialization\Normalizer\NormalizerObjectMappingRegistryInterface;
-use Chubbyphp\Serialization\ServiceFactory\NormalizerObjectMappingRegistryFactory;
+use Jobcloud\Serialization\Mapping\NormalizationObjectMappingInterface;
+use Jobcloud\Serialization\Normalizer\NormalizerObjectMappingRegistryInterface;
+use Jobcloud\Serialization\ServiceFactory\NormalizerObjectMappingRegistryFactory;
 use PHPUnit\Framework\TestCase;
 use Psr\Container\ContainerInterface;
 
 /**
- * @covers \Chubbyphp\Serialization\ServiceFactory\NormalizerObjectMappingRegistryFactory
+ * @covers \Jobcloud\Serialization\ServiceFactory\NormalizerObjectMappingRegistryFactory
  *
  * @internal
  */

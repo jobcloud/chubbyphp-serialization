@@ -3,7 +3,7 @@
 ```php
 <?php
 
-use Chubbyphp\Serialization\Normalizer\NormalizerObjectMappingRegistry;
+use Jobcloud\Serialization\Normalizer\NormalizerObjectMappingRegistry;
 
 $registry = new NormalizerObjectMappingRegistry([]);
 

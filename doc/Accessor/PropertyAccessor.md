@@ -3,7 +3,7 @@
 ```php
 <?php
 
-use Chubbyphp\Serialization\Accessor\PropertyAccessor;
+use Jobcloud\Serialization\Accessor\PropertyAccessor;
 use MyProject\Model;
 
 $object = new Model;

@@ -3,8 +3,8 @@
 ```php
 <?php
 
-use Chubbyphp\Serialization\Normalizer\NormalizerContextInterface;
-use Chubbyphp\Serialization\Policy\AndPolicy;
+use Jobcloud\Serialization\Normalizer\NormalizerContextInterface;
+use Jobcloud\Serialization\Policy\AndPolicy;
 use MyProject\Model\Model;
 use MyProject\Policy\AnotherPolicy;
 use MyProject\Policy\SomePolicy;

@@ -9,13 +9,13 @@
 
 namespace MyProject\Serialization;
 
-use Chubbyphp\Serialization\Link\LinkBuilder;
-use Chubbyphp\Serialization\Mapping\NormalizationFieldMappingBuilder;
-use Chubbyphp\Serialization\Mapping\NormalizationFieldMappingInterface;
-use Chubbyphp\Serialization\Mapping\NormalizationLinkMapping;
-use Chubbyphp\Serialization\Mapping\NormalizationLinkMappingInterface;
-use Chubbyphp\Serialization\Mapping\NormalizationObjectMappingInterface;
-use Chubbyphp\Serialization\Normalizer\CallbackLinkNormalizer;
+use Jobcloud\Serialization\Link\LinkBuilder;
+use Jobcloud\Serialization\Mapping\NormalizationFieldMappingBuilder;
+use Jobcloud\Serialization\Mapping\NormalizationFieldMappingInterface;
+use Jobcloud\Serialization\Mapping\NormalizationLinkMapping;
+use Jobcloud\Serialization\Mapping\NormalizationLinkMappingInterface;
+use Jobcloud\Serialization\Mapping\NormalizationObjectMappingInterface;
+use Jobcloud\Serialization\Normalizer\CallbackLinkNormalizer;
 use MyProject\Model\Model;
 
 final class ModelMapping implements NormalizationObjectMappingInterface

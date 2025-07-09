@@ -3,8 +3,8 @@
 ```php
 <?php
 
-use Chubbyphp\Serialization\Accessor\PropertyAccessor;
-use Chubbyphp\Serialization\Normalizer\Relation\ReferenceOneFieldNormalizer;
+use Jobcloud\Serialization\Accessor\PropertyAccessor;
+use Jobcloud\Serialization\Normalizer\Relation\ReferenceOneFieldNormalizer;
 use MyProject\Model\Model;
 use MyProject\Model\RelationModel;
 

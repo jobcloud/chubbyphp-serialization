@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace Chubbyphp\Tests\Serialization\Unit\Normalizer;
+namespace Jobcloud\Tests\Serialization\Unit\Normalizer;
 
 use Chubbyphp\Mock\MockObjectBuilder;
-use Chubbyphp\Serialization\Normalizer\NormalizerContext;
+use Jobcloud\Serialization\Normalizer\NormalizerContext;
 use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 use Psr\Http\Message\ServerRequestInterface;
 
 /**
- * @covers \Chubbyphp\Serialization\Normalizer\NormalizerContext
+ * @covers \Jobcloud\Serialization\Normalizer\NormalizerContext
  *
  * @internal
  */

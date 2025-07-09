@@ -3,7 +3,7 @@
 ```php
 <?php
 
-use Chubbyphp\Serialization\Mapping\CallableNormalizationObjectMapping;
+use Jobcloud\Serialization\Mapping\CallableNormalizationObjectMapping;
 use MyProject\Mapping\ModelMapping;
 use MyProject\Model\Model;
 

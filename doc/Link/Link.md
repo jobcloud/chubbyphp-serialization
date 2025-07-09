@@ -3,7 +3,7 @@
 ```php
 <?php
 
-use Chubbyphp\Serialization\Link\Link;
+use Jobcloud\Serialization\Link\Link;
 
 $link = new Link(
     '/api/model',

@@ -3,7 +3,7 @@
 ```php
 <?php
 
-use Chubbyphp\Serialization\Normalizer\NormalizerContext;
+use Jobcloud\Serialization\Normalizer\NormalizerContext;
 use Psr\Http\Message\ServerRequestInterface;
 
 $request = ...;

@@ -2,21 +2,21 @@
 
 declare(strict_types=1);
 
-namespace Chubbyphp\Tests\Serialization\Resources\Mapping;
+namespace Jobcloud\Tests\Serialization\Resources\Mapping;
 
-use Chubbyphp\Serialization\Link\LinkBuilder;
-use Chubbyphp\Serialization\Mapping\NormalizationFieldMappingBuilder;
-use Chubbyphp\Serialization\Mapping\NormalizationFieldMappingInterface;
-use Chubbyphp\Serialization\Mapping\NormalizationLinkMapping;
-use Chubbyphp\Serialization\Mapping\NormalizationLinkMappingInterface;
-use Chubbyphp\Serialization\Mapping\NormalizationObjectMappingInterface;
-use Chubbyphp\Serialization\Normalizer\CallbackLinkNormalizer;
-use Chubbyphp\Serialization\Policy\AndPolicy;
-use Chubbyphp\Serialization\Policy\CallbackPolicy;
-use Chubbyphp\Serialization\Policy\GroupPolicy;
-use Chubbyphp\Serialization\Policy\NullPolicy;
-use Chubbyphp\Serialization\Policy\OrPolicy;
-use Chubbyphp\Tests\Serialization\Resources\Model\Model;
+use Jobcloud\Serialization\Link\LinkBuilder;
+use Jobcloud\Serialization\Mapping\NormalizationFieldMappingBuilder;
+use Jobcloud\Serialization\Mapping\NormalizationFieldMappingInterface;
+use Jobcloud\Serialization\Mapping\NormalizationLinkMapping;
+use Jobcloud\Serialization\Mapping\NormalizationLinkMappingInterface;
+use Jobcloud\Serialization\Mapping\NormalizationObjectMappingInterface;
+use Jobcloud\Serialization\Normalizer\CallbackLinkNormalizer;
+use Jobcloud\Serialization\Policy\AndPolicy;
+use Jobcloud\Serialization\Policy\CallbackPolicy;
+use Jobcloud\Serialization\Policy\GroupPolicy;
+use Jobcloud\Serialization\Policy\NullPolicy;
+use Jobcloud\Serialization\Policy\OrPolicy;
+use Jobcloud\Tests\Serialization\Resources\Model\Model;
 
 final class ModelMapping implements NormalizationObjectMappingInterface
 {

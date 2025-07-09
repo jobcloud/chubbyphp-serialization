@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Chubbyphp\Serialization\ServiceFactory;
+namespace Jobcloud\Serialization\ServiceFactory;
 
 use Chubbyphp\DecodeEncode\Encoder\Encoder;
-use Chubbyphp\Serialization\Normalizer\Normalizer;
-use Chubbyphp\Serialization\Normalizer\NormalizerObjectMappingRegistry;
-use Chubbyphp\Serialization\Serializer;
+use Jobcloud\Serialization\Normalizer\Normalizer;
+use Jobcloud\Serialization\Normalizer\NormalizerObjectMappingRegistry;
+use Jobcloud\Serialization\Serializer;
 use Psr\Container\ContainerInterface;
 
 final class SerializationServiceFactory

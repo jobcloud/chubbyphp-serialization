@@ -2,18 +2,18 @@
 
 declare(strict_types=1);
 
-namespace Chubbyphp\Tests\Serialization\Unit\Normalizer;
+namespace Jobcloud\Tests\Serialization\Unit\Normalizer;
 
 use Chubbyphp\Mock\MockMethod\WithReturn;
 use Chubbyphp\Mock\MockObjectBuilder;
-use Chubbyphp\Serialization\Accessor\AccessorInterface;
-use Chubbyphp\Serialization\Normalizer\FieldNormalizer;
-use Chubbyphp\Serialization\Normalizer\NormalizerContextInterface;
+use Jobcloud\Serialization\Accessor\AccessorInterface;
+use Jobcloud\Serialization\Normalizer\FieldNormalizer;
+use Jobcloud\Serialization\Normalizer\NormalizerContextInterface;
 use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 
 /**
- * @covers \Chubbyphp\Serialization\Normalizer\FieldNormalizer
+ * @covers \Jobcloud\Serialization\Normalizer\FieldNormalizer
  *
  * @internal
  */

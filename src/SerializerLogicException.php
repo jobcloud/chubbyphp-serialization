@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Chubbyphp\Serialization;
+namespace Jobcloud\Serialization;
 
 use Psr\Link\LinkInterface;
 

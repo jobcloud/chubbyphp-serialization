@@ -3,7 +3,7 @@
 ```php
 <?php
 
-use Chubbyphp\Serialization\ServiceProvider\SerializationServiceProvider;
+use Jobcloud\Serialization\ServiceProvider\SerializationServiceProvider;
 use Pimple\Container;
 
 $container = new Container();

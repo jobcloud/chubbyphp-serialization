@@ -2,27 +2,27 @@
 
 declare(strict_types=1);
 
-namespace Chubbyphp\Tests\Serialization\Unit\Normalizer;
+namespace Jobcloud\Tests\Serialization\Unit\Normalizer;
 
 use Chubbyphp\Mock\MockMethod\WithCallback;
 use Chubbyphp\Mock\MockMethod\WithException;
 use Chubbyphp\Mock\MockMethod\WithReturn;
 use Chubbyphp\Mock\MockObjectBuilder;
-use Chubbyphp\Serialization\Mapping\NormalizationFieldMappingInterface;
-use Chubbyphp\Serialization\Mapping\NormalizationLinkMappingInterface;
-use Chubbyphp\Serialization\Mapping\NormalizationObjectMappingInterface;
-use Chubbyphp\Serialization\Normalizer\FieldNormalizerInterface;
-use Chubbyphp\Serialization\Normalizer\LinkNormalizerInterface;
-use Chubbyphp\Serialization\Normalizer\Normalizer;
-use Chubbyphp\Serialization\Normalizer\NormalizerContextInterface;
-use Chubbyphp\Serialization\Normalizer\NormalizerObjectMappingRegistryInterface;
-use Chubbyphp\Serialization\Policy\PolicyInterface;
-use Chubbyphp\Serialization\SerializerLogicException;
+use Jobcloud\Serialization\Mapping\NormalizationFieldMappingInterface;
+use Jobcloud\Serialization\Mapping\NormalizationLinkMappingInterface;
+use Jobcloud\Serialization\Mapping\NormalizationObjectMappingInterface;
+use Jobcloud\Serialization\Normalizer\FieldNormalizerInterface;
+use Jobcloud\Serialization\Normalizer\LinkNormalizerInterface;
+use Jobcloud\Serialization\Normalizer\Normalizer;
+use Jobcloud\Serialization\Normalizer\NormalizerContextInterface;
+use Jobcloud\Serialization\Normalizer\NormalizerObjectMappingRegistryInterface;
+use Jobcloud\Serialization\Policy\PolicyInterface;
+use Jobcloud\Serialization\SerializerLogicException;
 use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 
 /**
- * @covers \Chubbyphp\Serialization\Normalizer\Normalizer
+ * @covers \Jobcloud\Serialization\Normalizer\Normalizer
  *
  * @internal
  */

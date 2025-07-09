@@ -2,22 +2,22 @@
 
 declare(strict_types=1);
 
-namespace Chubbyphp\Tests\Serialization\Unit\DependencyInjection;
+namespace Jobcloud\Tests\Serialization\Unit\DependencyInjection;
 
 use Chubbyphp\DecodeEncode\Encoder\Encoder;
 use Chubbyphp\DecodeEncode\Encoder\JsonTypeEncoder;
-use Chubbyphp\Serialization\DependencyInjection\SerializationCompilerPass;
-use Chubbyphp\Serialization\Mapping\NormalizationFieldMappingInterface;
-use Chubbyphp\Serialization\Mapping\NormalizationLinkMappingInterface;
-use Chubbyphp\Serialization\Mapping\NormalizationObjectMappingInterface;
-use Chubbyphp\Serialization\Normalizer\Normalizer;
-use Chubbyphp\Serialization\Normalizer\NormalizerObjectMappingRegistry;
-use Chubbyphp\Serialization\Serializer;
+use Jobcloud\Serialization\DependencyInjection\SerializationCompilerPass;
+use Jobcloud\Serialization\Mapping\NormalizationFieldMappingInterface;
+use Jobcloud\Serialization\Mapping\NormalizationLinkMappingInterface;
+use Jobcloud\Serialization\Mapping\NormalizationObjectMappingInterface;
+use Jobcloud\Serialization\Normalizer\Normalizer;
+use Jobcloud\Serialization\Normalizer\NormalizerObjectMappingRegistry;
+use Jobcloud\Serialization\Serializer;
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 
 /**
- * @covers \Chubbyphp\Serialization\DependencyInjection\SerializationCompilerPass
+ * @covers \Jobcloud\Serialization\DependencyInjection\SerializationCompilerPass
  *
  * @internal
  */

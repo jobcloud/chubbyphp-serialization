@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Chubbyphp\Serialization\Normalizer;
+namespace Jobcloud\Serialization\Normalizer;
 
-use Chubbyphp\Serialization\Accessor\AccessorInterface;
+use Jobcloud\Serialization\Accessor\AccessorInterface;
 
 final class DateTimeFieldNormalizer implements FieldNormalizerInterface
 {

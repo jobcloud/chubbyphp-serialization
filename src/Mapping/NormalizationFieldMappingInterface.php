@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Chubbyphp\Serialization\Mapping;
+namespace Jobcloud\Serialization\Mapping;
 
-use Chubbyphp\Serialization\Normalizer\FieldNormalizerInterface;
-use Chubbyphp\Serialization\Policy\PolicyInterface;
+use Jobcloud\Serialization\Normalizer\FieldNormalizerInterface;
+use Jobcloud\Serialization\Policy\PolicyInterface;
 
 interface NormalizationFieldMappingInterface
 {

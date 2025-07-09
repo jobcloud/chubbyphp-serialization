@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Chubbyphp\Serialization\ServiceProvider;
+namespace Jobcloud\Serialization\ServiceProvider;
 
 use Chubbyphp\DecodeEncode\Encoder\Encoder;
-use Chubbyphp\Serialization\Normalizer\Normalizer;
-use Chubbyphp\Serialization\Normalizer\NormalizerObjectMappingRegistry;
-use Chubbyphp\Serialization\Serializer;
+use Jobcloud\Serialization\Normalizer\Normalizer;
+use Jobcloud\Serialization\Normalizer\NormalizerObjectMappingRegistry;
+use Jobcloud\Serialization\Serializer;
 use Pimple\Container;
 use Pimple\ServiceProviderInterface;
 

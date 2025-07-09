@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Chubbyphp\Tests\Serialization\Unit\Policy;
+namespace Jobcloud\Tests\Serialization\Unit\Policy;
 
 use Chubbyphp\Mock\MockObjectBuilder;
-use Chubbyphp\Serialization\Normalizer\NormalizerContextInterface;
-use Chubbyphp\Serialization\Policy\NullPolicy;
+use Jobcloud\Serialization\Normalizer\NormalizerContextInterface;
+use Jobcloud\Serialization\Policy\NullPolicy;
 use PHPUnit\Framework\TestCase;
 
 /**
- * @covers \Chubbyphp\Serialization\Policy\NullPolicy
+ * @covers \Jobcloud\Serialization\Policy\NullPolicy
  *
  * @internal
  */

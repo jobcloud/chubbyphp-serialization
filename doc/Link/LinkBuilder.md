@@ -3,7 +3,7 @@
 ```php
 <?php
 
-use Chubbyphp\Serialization\Link\LinkBuilder;
+use Jobcloud\Serialization\Link\LinkBuilder;
 
 $link = LinkBuilder::create('/api/model')
     ->setRels(['model'])

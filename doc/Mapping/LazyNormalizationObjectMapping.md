@@ -3,7 +3,7 @@
 ```php
 <?php
 
-use Chubbyphp\Serialization\Mapping\LazyNormalizationObjectMapping;
+use Jobcloud\Serialization\Mapping\LazyNormalizationObjectMapping;
 use MyProject\Model\Model;
 
 $container = ...;

@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Chubbyphp\Serialization\Mapping;
+namespace Jobcloud\Serialization\Mapping;
 
-use Chubbyphp\Serialization\Normalizer\LinkNormalizerInterface;
-use Chubbyphp\Serialization\Policy\NullPolicy;
-use Chubbyphp\Serialization\Policy\PolicyInterface;
+use Jobcloud\Serialization\Normalizer\LinkNormalizerInterface;
+use Jobcloud\Serialization\Policy\NullPolicy;
+use Jobcloud\Serialization\Policy\PolicyInterface;
 
 final class NormalizationLinkMapping implements NormalizationLinkMappingInterface
 {

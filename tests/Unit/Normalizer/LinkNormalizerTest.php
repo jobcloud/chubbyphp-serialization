@@ -2,18 +2,18 @@
 
 declare(strict_types=1);
 
-namespace Chubbyphp\Tests\Serialization\Unit\Normalizer;
+namespace Jobcloud\Tests\Serialization\Unit\Normalizer;
 
 use Chubbyphp\Mock\MockMethod\WithReturn;
 use Chubbyphp\Mock\MockObjectBuilder;
-use Chubbyphp\Serialization\Normalizer\LinkNormalizer;
-use Chubbyphp\Serialization\Normalizer\NormalizerContextInterface;
+use Jobcloud\Serialization\Normalizer\LinkNormalizer;
+use Jobcloud\Serialization\Normalizer\NormalizerContextInterface;
 use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 use Psr\Link\LinkInterface;
 
 /**
- * @covers \Chubbyphp\Serialization\Normalizer\LinkNormalizer
+ * @covers \Jobcloud\Serialization\Normalizer\LinkNormalizer
  *
  * @internal
  */

@@ -3,9 +3,9 @@
 ```php
 <?php
 
-use Chubbyphp\Serialization\Accessor\PropertyAccessor;
-use Chubbyphp\Serialization\Normalizer\DateTimeFieldNormalizer;
-use Chubbyphp\Serialization\Normalizer\FieldNormalizer;
+use Jobcloud\Serialization\Accessor\PropertyAccessor;
+use Jobcloud\Serialization\Normalizer\DateTimeFieldNormalizer;
+use Jobcloud\Serialization\Normalizer\FieldNormalizer;
 use MyProject\Model\Model;
 
 $model = new Model;

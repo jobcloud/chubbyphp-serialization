@@ -2,21 +2,21 @@
 
 declare(strict_types=1);
 
-namespace Chubbyphp\Tests\Serialization\Unit\Mapping;
+namespace Jobcloud\Tests\Serialization\Unit\Mapping;
 
 use Chubbyphp\Mock\MockObjectBuilder;
-use Chubbyphp\Serialization\Mapping\NormalizationLinkMappingBuilder;
-use Chubbyphp\Serialization\Normalizer\CallbackLinkNormalizer;
-use Chubbyphp\Serialization\Normalizer\LinkNormalizer;
-use Chubbyphp\Serialization\Normalizer\LinkNormalizerInterface;
-use Chubbyphp\Serialization\Policy\NullPolicy;
-use Chubbyphp\Serialization\Policy\PolicyInterface;
+use Jobcloud\Serialization\Mapping\NormalizationLinkMappingBuilder;
+use Jobcloud\Serialization\Normalizer\CallbackLinkNormalizer;
+use Jobcloud\Serialization\Normalizer\LinkNormalizer;
+use Jobcloud\Serialization\Normalizer\LinkNormalizerInterface;
+use Jobcloud\Serialization\Policy\NullPolicy;
+use Jobcloud\Serialization\Policy\PolicyInterface;
 use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 use Psr\Link\LinkInterface;
 
 /**
- * @covers \Chubbyphp\Serialization\Mapping\NormalizationLinkMappingBuilder
+ * @covers \Jobcloud\Serialization\Mapping\NormalizationLinkMappingBuilder
  *
  * @internal
  */

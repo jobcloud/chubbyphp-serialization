@@ -2,21 +2,21 @@
 
 declare(strict_types=1);
 
-namespace Chubbyphp\Tests\Serialization\Unit\ServiceProvider;
+namespace Jobcloud\Tests\Serialization\Unit\ServiceProvider;
 
 use Chubbyphp\DecodeEncode\Encoder\Encoder;
 use Chubbyphp\Mock\MockObjectBuilder;
-use Chubbyphp\Serialization\Normalizer\Normalizer;
-use Chubbyphp\Serialization\Normalizer\NormalizerObjectMappingRegistry;
-use Chubbyphp\Serialization\Serializer;
-use Chubbyphp\Serialization\ServiceProvider\SerializationServiceProvider;
+use Jobcloud\Serialization\Normalizer\Normalizer;
+use Jobcloud\Serialization\Normalizer\NormalizerObjectMappingRegistry;
+use Jobcloud\Serialization\Serializer;
+use Jobcloud\Serialization\ServiceProvider\SerializationServiceProvider;
 use PHPUnit\Framework\TestCase;
 use Pimple\Container;
 use Psr\Log\LoggerInterface;
 use Psr\Log\NullLogger;
 
 /**
- * @covers \Chubbyphp\Serialization\ServiceProvider\SerializationServiceProvider
+ * @covers \Jobcloud\Serialization\ServiceProvider\SerializationServiceProvider
  *
  * @internal
  */

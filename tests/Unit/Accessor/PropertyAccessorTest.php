@@ -4,13 +4,13 @@ declare(strict_types=1);
 
 namespace Jobcloud\Tests\Serialization\Unit\Accessor;
 
-use Chubbyphp\Serialization\Accessor\PropertyAccessor;
-use Chubbyphp\Serialization\SerializerLogicException;
+use Jobcloud\Serialization\Accessor\PropertyAccessor;
+use Jobcloud\Serialization\SerializerLogicException;
 use Doctrine\Persistence\Proxy;
 use PHPUnit\Framework\TestCase;
 
 /**
- * @covers \Chubbyphp\Serialization\Accessor\PropertyAccessor
+ * @covers \Jobcloud\Serialization\Accessor\PropertyAccessor
  *
  * @internal
  */

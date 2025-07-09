@@ -4,10 +4,10 @@ declare(strict_types=1);
 
 namespace Jobcloud\Tests\Serialization\Resources\Mapping;
 
-use Chubbyphp\Serialization\Mapping\NormalizationFieldMappingBuilder;
-use Chubbyphp\Serialization\Mapping\NormalizationFieldMappingInterface;
-use Chubbyphp\Serialization\Mapping\NormalizationLinkMappingInterface;
-use Chubbyphp\Serialization\Mapping\NormalizationObjectMappingInterface;
+use Jobcloud\Serialization\Mapping\NormalizationFieldMappingBuilder;
+use Jobcloud\Serialization\Mapping\NormalizationFieldMappingInterface;
+use Jobcloud\Serialization\Mapping\NormalizationLinkMappingInterface;
+use Jobcloud\Serialization\Mapping\NormalizationObjectMappingInterface;
 use Jobcloud\Tests\Serialization\Resources\Model\ManyModel;
 
 final class ManyModelMapping implements NormalizationObjectMappingInterface

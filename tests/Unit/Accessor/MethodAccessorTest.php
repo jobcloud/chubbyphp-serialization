@@ -4,12 +4,12 @@ declare(strict_types=1);
 
 namespace Jobcloud\Tests\Serialization\Unit\Accessor;
 
-use Chubbyphp\Serialization\Accessor\MethodAccessor;
-use Chubbyphp\Serialization\SerializerLogicException;
+use Jobcloud\Serialization\Accessor\MethodAccessor;
+use Jobcloud\Serialization\SerializerLogicException;
 use PHPUnit\Framework\TestCase;
 
 /**
- * @covers \Chubbyphp\Serialization\Accessor\MethodAccessor
+ * @covers \Jobcloud\Serialization\Accessor\MethodAccessor
  *
  * @internal
  */

@@ -6,14 +6,14 @@ namespace Jobcloud\Tests\Serialization\Unit\Normalizer\Relation;
 
 use Chubbyphp\Mock\MockMethod\WithReturn;
 use Chubbyphp\Mock\MockObjectBuilder;
-use Chubbyphp\Serialization\Accessor\AccessorInterface;
-use Chubbyphp\Serialization\Normalizer\NormalizerContextInterface;
-use Chubbyphp\Serialization\Normalizer\Relation\ReferenceManyFieldNormalizer;
+use Jobcloud\Serialization\Accessor\AccessorInterface;
+use Jobcloud\Serialization\Normalizer\NormalizerContextInterface;
+use Jobcloud\Serialization\Normalizer\Relation\ReferenceManyFieldNormalizer;
 use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 
 /**
- * @covers \Chubbyphp\Serialization\Normalizer\Relation\ReferenceManyFieldNormalizer
+ * @covers \Jobcloud\Serialization\Normalizer\Relation\ReferenceManyFieldNormalizer
  *
  * @internal
  */

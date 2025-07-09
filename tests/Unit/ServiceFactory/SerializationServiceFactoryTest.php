@@ -7,16 +7,16 @@ namespace Jobcloud\Tests\Serialization\Unit\ServiceFactory;
 use Chubbyphp\Container\Container;
 use Chubbyphp\DecodeEncode\Encoder\Encoder;
 use Chubbyphp\Mock\MockObjectBuilder;
-use Chubbyphp\Serialization\Normalizer\Normalizer;
-use Chubbyphp\Serialization\Normalizer\NormalizerObjectMappingRegistry;
-use Chubbyphp\Serialization\Serializer;
-use Chubbyphp\Serialization\ServiceFactory\SerializationServiceFactory;
+use Jobcloud\Serialization\Normalizer\Normalizer;
+use Jobcloud\Serialization\Normalizer\NormalizerObjectMappingRegistry;
+use Jobcloud\Serialization\Serializer;
+use Jobcloud\Serialization\ServiceFactory\SerializationServiceFactory;
 use PHPUnit\Framework\TestCase;
 use Psr\Log\LoggerInterface;
 use Psr\Log\NullLogger;
 
 /**
- * @covers \Chubbyphp\Serialization\ServiceFactory\SerializationServiceFactory
+ * @covers \Jobcloud\Serialization\ServiceFactory\SerializationServiceFactory
  *
  * @internal
  */

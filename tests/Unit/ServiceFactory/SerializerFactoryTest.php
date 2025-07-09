@@ -7,14 +7,14 @@ namespace Jobcloud\Tests\Serialization\Unit\ServiceFactory;
 use Chubbyphp\DecodeEncode\Encoder\EncoderInterface;
 use Chubbyphp\Mock\MockMethod\WithReturn;
 use Chubbyphp\Mock\MockObjectBuilder;
-use Chubbyphp\Serialization\Normalizer\NormalizerInterface;
-use Chubbyphp\Serialization\SerializerInterface;
-use Chubbyphp\Serialization\ServiceFactory\SerializerFactory;
+use Jobcloud\Serialization\Normalizer\NormalizerInterface;
+use Jobcloud\Serialization\SerializerInterface;
+use Jobcloud\Serialization\ServiceFactory\SerializerFactory;
 use PHPUnit\Framework\TestCase;
 use Psr\Container\ContainerInterface;
 
 /**
- * @covers \Chubbyphp\Serialization\ServiceFactory\SerializerFactory
+ * @covers \Jobcloud\Serialization\ServiceFactory\SerializerFactory
  *
  * @internal
  */

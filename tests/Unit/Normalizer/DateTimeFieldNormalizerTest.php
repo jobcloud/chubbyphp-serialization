@@ -6,14 +6,14 @@ namespace Jobcloud\Tests\Serialization\Unit\Normalizer;
 
 use Chubbyphp\Mock\MockMethod\WithReturn;
 use Chubbyphp\Mock\MockObjectBuilder;
-use Chubbyphp\Serialization\Accessor\AccessorInterface;
-use Chubbyphp\Serialization\Normalizer\DateTimeFieldNormalizer;
-use Chubbyphp\Serialization\Normalizer\NormalizerContextInterface;
+use Jobcloud\Serialization\Accessor\AccessorInterface;
+use Jobcloud\Serialization\Normalizer\DateTimeFieldNormalizer;
+use Jobcloud\Serialization\Normalizer\NormalizerContextInterface;
 use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 
 /**
- * @covers \Chubbyphp\Serialization\Normalizer\DateTimeFieldNormalizer
+ * @covers \Jobcloud\Serialization\Normalizer\DateTimeFieldNormalizer
  *
  * @internal
  */

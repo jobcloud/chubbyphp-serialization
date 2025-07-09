@@ -6,14 +6,14 @@ namespace Jobcloud\Tests\Serialization\Unit\Mapping;
 
 use Chubbyphp\Mock\MockMethod\WithReturn;
 use Chubbyphp\Mock\MockObjectBuilder;
-use Chubbyphp\Serialization\Mapping\CallableNormalizationObjectMapping;
-use Chubbyphp\Serialization\Mapping\NormalizationFieldMappingInterface;
-use Chubbyphp\Serialization\Mapping\NormalizationLinkMappingInterface;
-use Chubbyphp\Serialization\Mapping\NormalizationObjectMappingInterface;
+use Jobcloud\Serialization\Mapping\CallableNormalizationObjectMapping;
+use Jobcloud\Serialization\Mapping\NormalizationFieldMappingInterface;
+use Jobcloud\Serialization\Mapping\NormalizationLinkMappingInterface;
+use Jobcloud\Serialization\Mapping\NormalizationObjectMappingInterface;
 use PHPUnit\Framework\TestCase;
 
 /**
- * @covers \Chubbyphp\Serialization\Mapping\CallableNormalizationObjectMapping
+ * @covers \Jobcloud\Serialization\Mapping\CallableNormalizationObjectMapping
  *
  * @internal
  */

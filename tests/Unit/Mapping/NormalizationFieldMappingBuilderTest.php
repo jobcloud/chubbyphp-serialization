@@ -5,22 +5,22 @@ declare(strict_types=1);
 namespace Jobcloud\Tests\Serialization\Unit\Mapping;
 
 use Chubbyphp\Mock\MockObjectBuilder;
-use Chubbyphp\Serialization\Mapping\NormalizationFieldMappingBuilder;
-use Chubbyphp\Serialization\Normalizer\CallbackFieldNormalizer;
-use Chubbyphp\Serialization\Normalizer\DateTimeFieldNormalizer;
-use Chubbyphp\Serialization\Normalizer\FieldNormalizer;
-use Chubbyphp\Serialization\Normalizer\FieldNormalizerInterface;
-use Chubbyphp\Serialization\Normalizer\Relation\EmbedManyFieldNormalizer;
-use Chubbyphp\Serialization\Normalizer\Relation\EmbedOneFieldNormalizer;
-use Chubbyphp\Serialization\Normalizer\Relation\ReferenceManyFieldNormalizer;
-use Chubbyphp\Serialization\Normalizer\Relation\ReferenceOneFieldNormalizer;
-use Chubbyphp\Serialization\Policy\NullPolicy;
-use Chubbyphp\Serialization\Policy\PolicyInterface;
+use Jobcloud\Serialization\Mapping\NormalizationFieldMappingBuilder;
+use Jobcloud\Serialization\Normalizer\CallbackFieldNormalizer;
+use Jobcloud\Serialization\Normalizer\DateTimeFieldNormalizer;
+use Jobcloud\Serialization\Normalizer\FieldNormalizer;
+use Jobcloud\Serialization\Normalizer\FieldNormalizerInterface;
+use Jobcloud\Serialization\Normalizer\Relation\EmbedManyFieldNormalizer;
+use Jobcloud\Serialization\Normalizer\Relation\EmbedOneFieldNormalizer;
+use Jobcloud\Serialization\Normalizer\Relation\ReferenceManyFieldNormalizer;
+use Jobcloud\Serialization\Normalizer\Relation\ReferenceOneFieldNormalizer;
+use Jobcloud\Serialization\Policy\NullPolicy;
+use Jobcloud\Serialization\Policy\PolicyInterface;
 use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 
 /**
- * @covers \Chubbyphp\Serialization\Mapping\NormalizationFieldMappingBuilder
+ * @covers \Jobcloud\Serialization\Mapping\NormalizationFieldMappingBuilder
  *
  * @internal
  */

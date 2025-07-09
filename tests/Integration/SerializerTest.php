@@ -6,12 +6,12 @@ namespace Jobcloud\Tests\Serialization\Integration;
 
 use Chubbyphp\DecodeEncode\Encoder\Encoder;
 use Chubbyphp\DecodeEncode\Encoder\JsonTypeEncoder;
-use Chubbyphp\Serialization\Normalizer\Normalizer;
-use Chubbyphp\Serialization\Normalizer\NormalizerContextBuilder;
-use Chubbyphp\Serialization\Normalizer\NormalizerObjectMappingRegistry;
-use Chubbyphp\Serialization\Policy\GroupPolicy;
-use Chubbyphp\Serialization\Serializer;
-use Chubbyphp\Serialization\SerializerLogicException;
+use Jobcloud\Serialization\Normalizer\Normalizer;
+use Jobcloud\Serialization\Normalizer\NormalizerContextBuilder;
+use Jobcloud\Serialization\Normalizer\NormalizerObjectMappingRegistry;
+use Jobcloud\Serialization\Policy\GroupPolicy;
+use Jobcloud\Serialization\Serializer;
+use Jobcloud\Serialization\SerializerLogicException;
 use Jobcloud\Tests\Serialization\Resources\Mapping\ManyModelMapping;
 use Jobcloud\Tests\Serialization\Resources\Mapping\ModelMapping;
 use Jobcloud\Tests\Serialization\Resources\Mapping\OneModelMapping;

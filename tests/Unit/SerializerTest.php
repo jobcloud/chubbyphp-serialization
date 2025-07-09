@@ -7,13 +7,13 @@ namespace Jobcloud\Tests\Serialization\Unit;
 use Chubbyphp\DecodeEncode\Encoder\EncoderInterface;
 use Chubbyphp\Mock\MockMethod\WithReturn;
 use Chubbyphp\Mock\MockObjectBuilder;
-use Chubbyphp\Serialization\Normalizer\NormalizerContextInterface;
-use Chubbyphp\Serialization\Normalizer\NormalizerInterface;
-use Chubbyphp\Serialization\Serializer;
+use Jobcloud\Serialization\Normalizer\NormalizerContextInterface;
+use Jobcloud\Serialization\Normalizer\NormalizerInterface;
+use Jobcloud\Serialization\Serializer;
 use PHPUnit\Framework\TestCase;
 
 /**
- * @covers \Chubbyphp\Serialization\Serializer
+ * @covers \Jobcloud\Serialization\Serializer
  *
  * @internal
  */

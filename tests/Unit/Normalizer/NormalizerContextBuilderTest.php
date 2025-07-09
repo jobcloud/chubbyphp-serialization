@@ -5,14 +5,14 @@ declare(strict_types=1);
 namespace Jobcloud\Tests\Serialization\Unit\Normalizer;
 
 use Chubbyphp\Mock\MockObjectBuilder;
-use Chubbyphp\Serialization\Normalizer\NormalizerContextBuilder;
-use Chubbyphp\Serialization\Normalizer\NormalizerContextInterface;
+use Jobcloud\Serialization\Normalizer\NormalizerContextBuilder;
+use Jobcloud\Serialization\Normalizer\NormalizerContextInterface;
 use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 use Psr\Http\Message\ServerRequestInterface;
 
 /**
- * @covers \Chubbyphp\Serialization\Normalizer\NormalizerContextBuilder
+ * @covers \Jobcloud\Serialization\Normalizer\NormalizerContextBuilder
  *
  * @internal
  */

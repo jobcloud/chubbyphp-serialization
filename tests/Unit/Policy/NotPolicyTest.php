@@ -6,13 +6,13 @@ namespace Jobcloud\Tests\Serialization\Unit\Policy;
 
 use Chubbyphp\Mock\MockMethod\WithReturn;
 use Chubbyphp\Mock\MockObjectBuilder;
-use Chubbyphp\Serialization\Normalizer\NormalizerContextInterface;
-use Chubbyphp\Serialization\Policy\NotPolicy;
-use Chubbyphp\Serialization\Policy\PolicyInterface;
+use Jobcloud\Serialization\Normalizer\NormalizerContextInterface;
+use Jobcloud\Serialization\Policy\NotPolicy;
+use Jobcloud\Serialization\Policy\PolicyInterface;
 use PHPUnit\Framework\TestCase;
 
 /**
- * @covers \Chubbyphp\Serialization\Policy\NotPolicy
+ * @covers \Jobcloud\Serialization\Policy\NotPolicy
  *
  * @internal
  */

@@ -5,12 +5,12 @@ declare(strict_types=1);
 namespace Jobcloud\Tests\Serialization\Unit\Policy;
 
 use Chubbyphp\Mock\MockObjectBuilder;
-use Chubbyphp\Serialization\Normalizer\NormalizerContextInterface;
-use Chubbyphp\Serialization\Policy\CallbackPolicy;
+use Jobcloud\Serialization\Normalizer\NormalizerContextInterface;
+use Jobcloud\Serialization\Policy\CallbackPolicy;
 use PHPUnit\Framework\TestCase;
 
 /**
- * @covers \Chubbyphp\Serialization\Policy\CallbackPolicy
+ * @covers \Jobcloud\Serialization\Policy\CallbackPolicy
  *
  * @internal
  */

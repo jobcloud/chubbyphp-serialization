@@ -5,14 +5,14 @@ declare(strict_types=1);
 namespace Jobcloud\Tests\Serialization\Unit\Mapping;
 
 use Chubbyphp\Mock\MockObjectBuilder;
-use Chubbyphp\Serialization\Mapping\NormalizationLinkMapping;
-use Chubbyphp\Serialization\Normalizer\LinkNormalizerInterface;
-use Chubbyphp\Serialization\Policy\PolicyInterface;
+use Jobcloud\Serialization\Mapping\NormalizationLinkMapping;
+use Jobcloud\Serialization\Normalizer\LinkNormalizerInterface;
+use Jobcloud\Serialization\Policy\PolicyInterface;
 use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 
 /**
- * @covers \Chubbyphp\Serialization\Mapping\NormalizationLinkMapping
+ * @covers \Jobcloud\Serialization\Mapping\NormalizationLinkMapping
  *
  * @internal
  */

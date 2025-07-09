@@ -4,11 +4,11 @@ declare(strict_types=1);
 
 namespace Jobcloud\Tests\Serialization\Unit;
 
-use Chubbyphp\Serialization\SerializerLogicException;
+use Jobcloud\Serialization\SerializerLogicException;
 use PHPUnit\Framework\TestCase;
 
 /**
- * @covers \Chubbyphp\Serialization\SerializerLogicException
+ * @covers \Jobcloud\Serialization\SerializerLogicException
  *
  * @internal
  */

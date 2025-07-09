@@ -4,11 +4,11 @@ declare(strict_types=1);
 
 namespace Jobcloud\Tests\Serialization\Unit\Link;
 
-use Chubbyphp\Serialization\Link\Link;
+use Jobcloud\Serialization\Link\Link;
 use PHPUnit\Framework\TestCase;
 
 /**
- * @covers \Chubbyphp\Serialization\Link\Link
+ * @covers \Jobcloud\Serialization\Link\Link
  *
  * @internal
  */
